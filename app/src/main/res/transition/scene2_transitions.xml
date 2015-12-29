@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:transitionOrdering="together">
+    <fade android:fadingMode="fade_out"
+        android:duration="200">
+        <targets>
+            <target android:targetId="@id/button_start" />
+        </targets>
+    </fade>
+    <changeBounds
+        android:duration="500"
+        android:interpolator="@android:interpolator/linear">
+        <targets>
+            <target android:targetId="@id/title_bar" />
+        </targets>
+    </changeBounds>
+
+    <!-- This transition wait for the first one to finish (after 500 milli seconds )-->
+    <changeBounds
+        android:duration="500"
+        android:interpolator="@android:interpolator/anticipate_overshoot"
+        android:startDelay="500">
+        <targets>
+            <target android:targetId="@id/content" />
+        </targets>
+    </changeBounds>
+
+    <!--  Delays are adjusted for the circles to have a smooth transition -->
+    <slide
+        android:duration="200"
+        android:slideEdge="top"
+        android:startDelay="1000">
+        <targets>
+            <target android:targetId="@id/circle_yellow" />
+        </targets>
+    </slide>
+    <slide
+        android:duration="200"
+        android:slideEdge="top"
+        android:startDelay="1100">
+        <targets>
+            <target android:targetId="@id/circle_blue" />
+        </targets>
+    </slide>
+    <slide
+        android:duration="200"
+        android:slideEdge="top"
+        android:startDelay="1200">
+        <targets>
+            <target android:targetId="@id/circle_white" />
+        </targets>
+    </slide>
+    <slide
+        android:duration="200"
+        android:slideEdge="top"
+        android:startDelay="1300">
+        <targets>
+            <target android:targetId="@id/circle_red" />
+        </targets>
+    </slide>
+</transitionSet>

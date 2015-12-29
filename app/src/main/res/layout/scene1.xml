@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp">
+    <View
+        android:id="@+id/button_start"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#cccccc"
+        android:layout_centerHorizontal="true"
+        />
+
+    <View
+        android:id="@+id/title_bar"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="500dp"
+        android:layout_height="0dp"
+        android:background="#000000"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/title_bar"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+</RelativeLayout>
