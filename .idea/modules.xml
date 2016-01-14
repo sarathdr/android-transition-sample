@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Infomedia.iml" filepath="$PROJECT_DIR$/Infomedia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-transition-sample.iml" filepath="$PROJECT_DIR$/android-transition-sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

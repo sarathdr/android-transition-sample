@@ -1,4 +1,4 @@
-package test.infomedia;
+package test.transitions;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

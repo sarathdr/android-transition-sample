@@ -14,7 +14,6 @@ import android.view.ViewGroup;
 import android.support.v4.app.Fragment;
 import android.view.animation.AnticipateInterpolator;
 
-import test.infomedia.R;
 
 /**
  * Fragment to handle the transition
