@@ -2,4 +2,5 @@
 An sample program for android transition 
 
 # Animation
-![alt Animation] (demo/anim.gif)
+![ScreenShot](demo/anim.gif)
+
